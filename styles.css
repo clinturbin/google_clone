@@ -1,0 +1,113 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    margin-top: 15px;
+    height: 5vh;
+}
+
+.header_left {
+    width: 49%;
+    display: inline-block;
+    margin: 0;
+}
+
+.header_right {
+    width: 49%;
+    display: inline-block;
+    margin: 0;
+    text-align: right;
+}
+
+.header_right_buttons, .header_right_links {
+    display: inline-block;
+}
+
+.sign_in {
+    background-color: rgb(66, 133, 244);
+    color: white;
+    padding: .5em;
+}
+
+.main {
+    height: 90vh;
+}
+
+.main_container {
+    text-align: center;
+    margin-top: 4em;
+    width: 50%;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.logo {
+    font-size: 5.5em;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: -.15em;
+}
+
+.logo p {
+    margin: 0;
+}
+.search {
+    box-shadow: 2px 1px 2px gray;
+}
+
+.search, .search_buttons {
+    margin-top: 1em;
+}
+
+.search_box {
+    width: 100%;
+    height: 30px;
+}
+
+.search_buttons button {
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.blue {
+    color: rgb(66, 133, 244);
+}
+
+.red {
+    color: rgb(219, 68, 55);
+}
+
+.yellow {
+    color: rgb(244, 180, 0);
+}
+
+.green {
+    color: rgb(15, 157, 88);
+}
