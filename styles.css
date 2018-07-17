@@ -40,6 +40,20 @@ html, body {
     color: #222;
 }
 
+.footer_link {
+    margin: 1em;
+    text-decoration: none;
+    color: #666;
+}
+
+.head_link:hover, .footer_link:hover {
+    text-decoration: underline;
+}
+
+.footer_link:hover {
+    color: #222;
+}
+
 .sign_in {
     padding: .3em 1em;
     border: 1px solid #4285f4;
@@ -127,10 +141,4 @@ html, body {
 
 .green {
     color: rgb(15, 157, 88);
-}
-
-.footer_link {
-    margin: 1em;
-    text-decoration: none;
-    color: #666;
 }
