@@ -1,9 +1,12 @@
 body {
-    width: 100%;
+    height: 100vh;
     margin: 0;
     font-size: 10px;
     font-family: arial,sans-serif;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* Styling for the Header Nav Bar */
@@ -48,6 +51,107 @@ body {
     margin-right: 1em;
 }
 
-.icon_container img {
+.icon {
+    height: 100%;
+}
+
+/* Styling the main body */
+.main_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10em;
+}
+
+/* Styling the Google Logo */
+.logo {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8.5em;
+    font-weight: 600;
+    letter-spacing: -.15em;
+    margin: 0;
+}
+
+.blue {
+    color: rgb(66, 133, 244);
+}
+
+.red {
+    color: rgb(219, 68, 55);
+}
+
+.yellow {
+    color: rgb(244, 180, 0);
+}
+
+.green {
+    color: rgb(15, 157, 88);
+}
+
+/* Styling for Search Bar */
+.search {
+    display: flex;
+    align-content: center;
+    height: 30px;
+    width: 50%;
+    margin: 20px 0;
+    background-color: #fff;
+    height: 44px;
+    vertical-align: top;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 
+                0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    display: flex;
+    align-items: center;
+}
+
+.search_box {
+    position: relative;
+    height: 80%;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    padding-left: 1.5em;
+}
+
+.mic_container {
+    width: 30px;
+    height: 30px;
+}
+
+/* Styling the Buttons under search bar */
+.search_buttons button {
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+/* FOOTER NAV BAR */
+.footer_nav {
+    height: 40px;
+    font-size: 1.3em;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left, .footer_right {
+    margin: .5em 1em;
+    padding: .5em 0;
+    color: #666;
 }
