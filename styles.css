@@ -1,113 +1,53 @@
 body {
-    width: 100vw;
-    height: 100vh;
-    font-family: arial;
+    width: 100%;
+    margin: 0;
+    font-size: 10px;
+    font-family: arial,sans-serif;
     box-sizing: border-box;
 }
 
-.header {
-    width: 100%;
-    margin-top: 15px;
-    height: 5vh;
-}
-
-.header_left {
-    width: 49%;
-    display: inline-block;
-    margin: 0;
-}
-
-.header_right {
-    width: 49%;
-    display: inline-block;
-    margin: 0;
-    text-align: right;
-}
-
-.header_right_buttons, .header_right_links {
-    display: inline-block;
-}
-
-.sign_in {
-    background-color: rgb(66, 133, 244);
-    color: white;
-    padding: .5em;
-}
-
-.main {
-    height: 90vh;
-}
-
-.main_container {
-    text-align: center;
-    margin-top: 4em;
-    width: 50%;
-    margin: auto;
-    margin-top: 15%;
-}
-
-.logo {
-    font-size: 5.5em;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 600;
-    letter-spacing: -.15em;
-}
-
-.logo p {
-    margin: 0;
-}
-.search {
-    box-shadow: 2px 1px 2px gray;
-}
-
-.search, .search_buttons {
-    margin-top: 1em;
-}
-
-.search_box {
-    width: 100%;
+/* Styling for the Header Nav Bar */
+.header_nav {
     height: 30px;
+    margin: 2em 1.5em;
+    display: flex;
+    justify-content: space-between;
 }
 
-.search_buttons button {
-    height: 36px;
-    line-height: 27px;
-    background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
-    border-radius: 2px;
-    color: #757575;
-    cursor: default;
-    font-family: arial,sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-    margin: 11px 4px;
-    min-width: 54px;
-    padding: 0 16px;
-    text-align: center;
+.nav_left, .nav_right {
+    font-size: 1.3em;
+    display: flex;
+    align-content: center;
 }
 
-a {
+.nav_link {
     text-decoration: none;
-    color: black;
-    padding-left: 15px;
+    color: #000;
+    margin: .5em;
 }
 
-a:hover {
+.nav_link:hover {
     text-decoration: underline;
 }
 
-.blue {
-    color: rgb(66, 133, 244);
+.sign_in {
+    line-height: 28px;
+    padding: 0 12px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
 }
 
-.red {
-    color: rgb(219, 68, 55);
+.icon_container {
+    width: 30px;
+    height: 30px;
+    margin-right: 1em;
 }
 
-.yellow {
-    color: rgb(244, 180, 0);
-}
-
-.green {
-    color: rgb(15, 157, 88);
+.icon_container img {
+    width: 100%;
 }
